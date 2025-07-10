@@ -1,50 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.inter-font{
+.inter-font {
     font-family: "Inter", sans-serif;
 }
-.raleway-font{
+
+.raleway-font {
     font-family: "Raleway", sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 /* shared style */
-.primary-color{
+.primary-color {
     color: #4E47FF;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
+
 /* nav-bar style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 150px 150px;
     padding-top: 40px;
     align-items: center;
 }
-.nav-bar h1{
+
+.nav-bar h1 {
     font-size: 34px;
-font-weight: 900;
-color: #4E47FF;
+    font-weight: 900;
+    color: #4E47FF;
 }
-.nav-btn{
+
+.nav-btn {
     font-size: 12px;
-font-weight: 500;
+    font-weight: 500;
 }
+
 /* header style */
-header{
+header {
     background-image: url('../Assets/Hero-bg.png');
     height: 698px;
     margin-bottom: 116px;
 }
-.nav-title{
+
+.nav-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,50 +61,57 @@ header{
     text-align: center;
     margin-top: 100px;
 }
-.nav-title h1{
+
+.nav-title h1 {
     font-size: 65px;
-font-weight: 700;
-width: 905px;
-margin-bottom: 37px;
+    font-weight: 700;
+    width: 905px;
+    margin-bottom: 37px;
 }
 
 /* main section style start */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-bottom: 116px;
 }
+
 /* action section style */
-.action-section{
+.action-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.action-container{
-width: 517px;
+
+.action-container {
+    width: 517px;
 }
-.action-container h2{
-font-size: 42px;
-font-weight: 700;
-color: #252432;
-margin-bottom: 23px;
+
+.action-container h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 23px;
 }
-.action-container p{
-font-size: 24px;
-font-weight: 400;
-color: #25243280;
-margin-bottom: 23px;
+
+.action-container p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243280;
+    margin-bottom: 23px;
 }
-.action-img{
+
+.action-img {
     width: 403px;
-height: 328px;
-border-radius: 45px;
+    height: 328px;
+    border-radius: 45px;
 }
 
 /* productive section */
-.productive-section{
+.productive-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,24 +120,85 @@ border-radius: 45px;
     height: 306px;
     border-radius: 24px;
 }
-.productive-container{
+
+.productive-container {
     display: flex;
     gap: 168px;
     text-align: center;
     margin-top: 40px;
 }
-.productive-section h2{
+
+.productive-section h2 {
     font-size: 38px;
-font-weight: 700;
+    font-weight: 700;
 }
-.productive-container h1{
+
+.productive-container h1 {
     font-size: 80px;
-font-weight: 700;
-color: #4E47FF;
-margin-bottom: 10px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin-bottom: 10px;
 }
-.productive-container p{
+
+.productive-container p {
     font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+/* user feedback section */
+.user-feedback h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+font-weight: 700;
+color: #252432;
+}
+
+.user-container {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    padding: 30px;
+    width: 366.67px;
+    height: 243px;
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.user-card h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 24px;
+font-weight: 600;
+color: #1E1E1E;
+}
+.user-card p{
+    margin-bottom: 15px;
+    font-size: 16px;
 font-weight: 400;
-color: #00000080;
+color: #1E1E1E;
+}
+.user-card-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 318.67px;
+height: 46px;
+}
+.user-card-name img{
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.user-card-name p{
+    margin: 4px 0px;
+    font-size: 16px;
+font-weight: 600;
+color: #757575;
 }
