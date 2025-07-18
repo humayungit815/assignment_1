@@ -7,10 +7,10 @@
 .raleway-font {
     font-family: "Raleway", sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* shared style */
@@ -93,7 +93,7 @@ section {
 }
 
 .action-container {
-    width: 517px;
+    max-width: 517px;
 }
 
 .action-container h2 {
@@ -339,3 +339,6 @@ section {
 .hide {
     display: none;
 }
+
+
+

@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
 
+    *{
+        box-sizing: border-box;
+    }
     .action-section,
     .productive-container,
     .user-container,
@@ -14,6 +17,7 @@
 
     .nav-title h1 {
         width: 100%;
+        font-size: 30px;
     }
 
     .nav-title {
@@ -21,18 +25,41 @@
     }
 
     header {
-        height: 550px;
+        height: 300px;
         margin-bottom: 80px;
     }
 
     .action-container {
         text-align: center;
+        margin: 0px 20px;
     }
-
+    .action-container h2{
+        font-size: 30px;
+    }
+    .action-container p{
+        font-size: 17px;
+    }
+    .action-img{
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
     .action-container {
         margin-bottom: 40px;
     }
-
+    .form-container{
+        width: 100%;
+    }
+    .form-container input{
+        padding: 20px 30px;
+    }
+    .form-container textarea{
+        padding: 20px 30px;
+    }
+    .get-touch-section{
+        width: 90%;
+        margin: 0 auto;
+    }
     section {
         margin-bottom: 80px;
     }
@@ -45,7 +72,7 @@
     }
 
     .productive-section h2 {
-        padding: 20px 30px;
+        padding: 15px 15px;
         text-align: center;
     }
 
@@ -60,7 +87,10 @@
     }
 
     .user-feedback h1 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 35px;
     }
 
 
@@ -87,8 +117,8 @@
     }
 
     .get-touch-section h1 {
-        font-size: 60px;
-        padding: 30px 20px;
+        font-size: 40px;
+        padding: 30px 10px;
     }
 
     .footer p {
@@ -97,7 +127,9 @@
     }
 
     .footer {
-        height: 300px;
+        width: 90%;
+        margin: 0 auto;
+       
     }
 
     .footer h1 {
