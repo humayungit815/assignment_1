@@ -333,7 +333,11 @@ section {
 .footer ul li {
     list-style: none;
 }
-
+.hamburger{
+    display: none !important;
+    font-size: 24px;
+    cursor: pointer;
+}
 
 
 .hide {

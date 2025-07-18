@@ -139,4 +139,12 @@
     .footer ul {
         margin-top: 20px;
     }
+
+    .hamburger{
+        display: block !important;
+    }
+
+    .sign-btn{
+        display: none;
+    }
 }
